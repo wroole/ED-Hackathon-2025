@@ -1,4 +1,5 @@
 const inputForm = document.querySelector('#chat-input')
+const addChatElement = document.querySelector('#new-chat-btn')
 
 enableImagePreview();
 inputForm.addEventListener('submit', event => {
@@ -28,7 +29,12 @@ inputForm.addEventListener('submit', event => {
 })
 
 
+newChatElement.addEventListener('submit', event => {
+    event.preventDefault()
 
+
+
+})
 
 
 function addMessage(text, sender) {
