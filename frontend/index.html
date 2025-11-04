@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataBot 2.0</title>
+    <link rel="stylesheet" href="styleSheet.css" />
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="sidebar-header">SVOBOT228</div>
+        <div id="chat-history" class="chat-history">
+            <div class="chat-item active">📄 New Chat</div>
+        </div>
+        <button id="new-chat-btn" class="new-chat-btn">+ New Chat</button>
+    </aside>
+
+    <main class="main">
+        <div id="chat-box" class="chat-box">
+        <div class='message bot'> huesos</div>
+            <div class='message user'> huesos</div>
+        </div>
+
+        <form id="chat-input" class="chat-input" autocomplete="off">
+            <input id="user-input" type="text" placeholder="Enter a message..." required />
+            <button id="send-btn" type="submit">➤</button>
+        </form>
+    </main>
+</div>
+<div id="image-modal" class="image-modal">
+    <img id="modal-img" src="" alt="full preview">
+</div>
+<script src="index.js"></script>
+</body>
+</html>
