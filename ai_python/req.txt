@@ -1,0 +1,9 @@
+openai
+fastapi
+uvicorn
+python-dotenv
+pandas
+matplotlib
+seaborn
+numpy
+pydantic
