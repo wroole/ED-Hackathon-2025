@@ -1,20 +1,26 @@
 /* 🌙 ТЕМНАЯ ТЕМА */
+/* 🌌 ТЕМНАЯ СИНЯЯ ТЕМА */
 :root {
     --bg-color: #0d1117;
     --panel-color: #1c2128;
     --panel-border-color: #30363d;
     --text-color: #e6edf3;
     --muted-text-color: #8b949e;
-    --accent-color: #238636;
-    --accent-hover-color: #2ea043;
-    --user-message-color: rgba(0, 255, 255, 0.15);
+
+    /* 🔵 Синие акценты */
+    --accent-color: rgba(31, 111, 235, 0.6); /* основная кнопка, активный чат */
+    --accent-hover-color: #388bfd; /* наведение */
+    --user-message-color: rgba(56, 139, 253, 0.15); /* пузырь пользователя */
     --bot-message-color: rgba(255, 255, 255, 0.1);
-    --button-glow: rgba(0, 255, 255, 0.3);
-    --button-glow-hover: rgba(0, 255, 255, 0.6);
+
+    /* 💡 Подсветка и кнопки */
+    --button-glow: rgba(56, 139, 253, 0.3);
+    --button-glow-hover: rgba(56, 139, 253, 0.6);
+
     --glass-bg-color: rgba(13, 17, 23, 0.7);
     --input-bg-color: rgba(13, 17, 23, 0.9);
     --input-panel-bg-color: rgba(22, 27, 34, 0.85);
-    --scrollbar-thumb-color: #484f58;
+    --scrollbar-thumb-color: #4b5563;
 }
 
 /* 🔧 СБРОС */
