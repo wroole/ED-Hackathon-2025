@@ -7,30 +7,58 @@
     <link rel="stylesheet" href="styleSheet.css" />
 </head>
 <body>
+
+<!-- 🔥 Фон -->
+<div id="bg"></div>
+<!-- 💬 Основное приложение -->
 <div class="app">
-    <aside class="sidebar">
-        <div class="sidebar-header">Data-Bot 1.0</div>
-        <div id="chat-history" class="chat-history">
-            <div class="chat-item active">📄 New Chat</div>
+    <aside id='sidebar' class="sidebar">
+        <div class="sidebar-header">
+            <span>Data-Bot 2.0</span>
+            <button id="toggle-sidebar" class="toggle-sidebar">☰</button>
         </div>
         <button id="new-chat-btn" class="new-chat-btn">+ New Chat</button>
+        <div id="chat-history" class="chat-history">
+            <div class="chat-item active">📄 First chat</div>
+        </div>
     </aside>
 
     <main class="main">
+
         <div id="chat-box" class="chat-box">
-        <div class='message bot'> Hello, i'm test message!</div>
-            <div class='message user'> Hello, im test answer!</div>
         </div>
 
         <form id="chat-input" class="chat-input" autocomplete="off">
+            <label for="user-input" class="visually-hidden">User message</label>
+            <!--suppress HtmlFormInputWithoutLabel -->
             <input id="user-input" type="text" placeholder="Enter a message..." required />
             <button id="send-btn" type="submit">➤</button>
         </form>
+
     </main>
+    <div id="image-modal" class="image-modal">
+        <img id="modal-img" src="" alt="full preview">
+    </div>
+    <script src="index.js"></script>
 </div>
-<div id="image-modal" class="image-modal">
-    <img id="modal-img" src="" alt="full preview">
-</div>
-<script src="index.js"></script>
+
+<!-- 🔧 Скрипты -->
+<!--suppress HtmlUnknownTarget -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+<script>
+    VANTA.NET({
+        el: "#bg",
+        mouseControls: true,
+        touchControls: false,
+        gyroControls: false,
+        points: 12.0,
+        maxDistance: 20.0,
+        spacing: 18.0,
+        color: 0x00ffff,
+        backgroundColor: 0x0a0a0a
+    });
+</script>
+
 </body>
 </html>

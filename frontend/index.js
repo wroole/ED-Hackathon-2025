@@ -1,107 +1,91 @@
-const inputForm = document.querySelector('#chat-input')
-const addChatElement = document.querySelector('#new-chat-btn')
-const chatListElement = document.querySelector('#chat-history')
-const chatBoxElement = document.querySelector('#chat-box')
+const sidebar = document.querySelector('#sidebar');
+const toggleButton = document.querySelector('#toggle-sidebar');
+const inputForm = document.querySelector('#chat-input');
+const chatBoxElement = document.querySelector('#chat-box');
+const mainContainer = document.querySelector('.main');
 
-
-let chats = [];
-let currentChatId = null;
-
+toggleButton.addEventListener('click', () => {
+    sidebar.classList.toggle('collapsed');
+});
 
 enableImagePreview();
-inputForm.addEventListener('submit', event => {
-    event.preventDefault()
 
-    const inputElement = document.querySelector('#user-input').value
-    document.querySelector('#user-input').value = ''
-    console.log(inputElement)
-    addMessage(inputElement, 'user')
-    fetch('http://127.0.0.1:8000/ask', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: inputElement })
-    })
-        .then(res => {
-            console.log(res)
-            return res.json()
-        })
-        .then(data => {
-            console.log(data)
-            addMessage(data.answer, 'bot')
-            if(data.image) {
-                addImage('http://localhost:8000' + data.image, 'bot')
-            }
-        })
-        .catch(err => console.error('Ошибка:', err));
-})
-
-
-addChatElement.addEventListener('submit', event => {
-    event.preventDefault()
-
-    const newChat = {
-        id: Date.now(),
-        title: 'New chat',
-        messages: []
-    };
-    chats.push(newChat);
-    currentChatId = newChat.id;
-
-    const chatButton = document.createElement('div');
-    chatButton.classList.add('chat-item inactive');
-    chatButton.textContent = newChat.title;
-
-    // при клике на чат — переключаемся
-    chatButton.addEventListener('click', () => loadChat(newChat.id));
-    chatListElement.appendChild(chatButton);
-
-    // 4. очищаем окно чата
+// === Показ приветственного экрана ===
+function showWelcomeScreen() {
+    // Очищаем чат
     chatBoxElement.innerHTML = '';
 
-})
-
-fetch('http://127.0.0.1:8080/api/test')
-    .then(res => res.json())
-    .then(data => {
-        console.log('Ответ от Java:', data);
-        addMessage(data.message, 'bot');
-    })
-    .catch(err => console.error('Ошибка запроса:', err));
-
-function loadChat(chatID){
-    const chat = chats.find(element => element.id === chatID)
-    currentChatId = chat.id
-    chatBoxElement.innerHTML = ''
-
-    if(chat){
-        chat.messages.forEach(msg => addMessage(msg.text, msg.sender))
+    // Добавляем приветственный блок, если его ещё нет
+    if (!document.querySelector('.welcome-message')) {
+        const welcomeText = document.createElement('div');
+        welcomeText.className = 'welcome-message';
+        welcomeText.innerHTML = `
+            <p>What's on your business today?</p>
+        `;
+        mainContainer.insertBefore(welcomeText, inputForm);
     }
+
+    // Включаем режим центрирования
+    mainContainer.classList.add('welcome');
 }
 
+// === Скрытие приветственного экрана ===
+function hideWelcomeScreen() {
+    const welcomeText = document.querySelector('.welcome-message');
+    if (welcomeText) welcomeText.remove();
+    mainContainer.classList.remove('welcome');
+}
+
+// === Отправка сообщений ===
+inputForm.addEventListener('submit', event => {
+    event.preventDefault();
+
+    const inputValue = document.querySelector('#user-input').value.trim();
+    if (!inputValue) return;
+
+    hideWelcomeScreen(); // прячем приветствие при первом сообщении
+
+    document.querySelector('#user-input').value = '';
+    addMessage(inputValue, 'user');
+
+    fetch('http://127.0.0.1:8080/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: inputValue })
+    })
+        .then(res => res.json())
+        .then(data => {
+            addMessage(data.answer, 'bot');
+            if (data.image) {
+                addImage('http://localhost:8000' + data.image, 'bot');
+            }
+        })
+        .catch(err => console.error('Ошибка запроса:', err));
+});
+
+// === Добавление сообщений ===
 function addMessage(text, sender) {
-    const msg = document.createElement('div')
-    msg.classList.add('message', sender)
-    msg.textContent = text
-    chatBoxElement.appendChild(msg)
-    chatBoxElement.scrollTop = chatBoxElement.scrollHeight
+    const msg = document.createElement('div');
+    msg.classList.add('message', sender);
+    msg.textContent = text;
+    chatBoxElement.appendChild(msg);
+    chatBoxElement.scrollTop = chatBoxElement.scrollHeight;
 }
 
 function addImage(image, sender) {
-    const img = document.createElement('img')
-    img.src = image
-    img.classList.add('message', sender, 'image')
-    img.alt = 'answer from a bot'
-    chatBoxElement.appendChild(img)
-    chatBoxElement.scrollTop = chatBoxElement.scrollHeight
+    const img = document.createElement('img');
+    img.src = image;
+    img.classList.add('message', sender, 'image');
+    img.alt = 'Ответ от бота';
+    chatBoxElement.appendChild(img);
+    chatBoxElement.scrollTop = chatBoxElement.scrollHeight;
 }
 
-
-// Функция для увеличения картинки
+// === Предпросмотр изображений ===
 function enableImagePreview() {
     const modal = document.querySelector('#image-modal');
     const modalImg = document.querySelector('#modal-img');
 
-    // Когда кликают на картинку в чате
     document.addEventListener('click', (e) => {
         if (e.target.tagName === 'IMG' && e.target.classList.contains('image')) {
             modal.style.display = 'flex';
@@ -109,8 +93,38 @@ function enableImagePreview() {
         }
     });
 
-    // Когда кликают на модальное окно (закрытие)
     modal.addEventListener('click', () => {
         modal.style.display = 'none';
     });
 }
+
+// === Загрузка истории ===
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('🌐 Загружаем историю чата с Java...');
+    fetch('http://127.0.0.1:8080/api/history')
+        .then(res => res.json())
+        .then(data => {
+            if (data && data.length > 0) {
+                console.log('История:', data);
+                chatBoxElement.innerHTML = '';
+
+                data.forEach(msg => {
+                    if (msg.text) addMessage(msg.text, msg.sender);
+                    if (msg.image) addImage('http://localhost:8000' + msg.image, msg.sender);
+                });
+                hideWelcomeScreen();
+            } else {
+                showWelcomeScreen();
+                console.log('История пуста.');
+            }
+        })
+        .catch(err => {
+            console.error('Ошибка загрузки истории:', err);
+            showWelcomeScreen();
+        });
+});
+
+// === Новый чат ===
+document.querySelector('.new-chat-btn')?.addEventListener('click', () => {
+    showWelcomeScreen();
+});

@@ -15,7 +15,8 @@ load_dotenv()
 
 OPENAI_API_KEY = os.getenv("KEY")
 if not OPENAI_API_KEY:
-    raise RuntimeError("OPENAI_API_KEY is not in environment")
+#     raise RuntimeError("OPENAI_API_KEY is not in environment")
+    print("⚠️  Warning: OPENAI_API_KEY not found, running in demo mode.")
 
 openai.api_key = OPENAI_API_KEY
 
@@ -255,14 +256,21 @@ class Answer(BaseModel):
     answer: str
     image: str | None = None
 
-@app.post("/ask", response_model=Answer)
-def ask(q: Question):
-    need_chart = (q.chart is True) or (q.chart is None and detect_graph_request(q.question))
-    out = question_sql_answer(q.question, need_chart)
-    answer = Answer(sql=out['query'], result=out['result'], answer=out['answer'])
-    if(out['image'] != None):
-        answer.image = out['image']
-    return answer
+# @app.post("/ask", response_model=Answer)
+# def ask(q: Question):
+#     need_chart = (q.chart is True) or (q.chart is None and detect_graph_request(q.question))
+#     out = question_sql_answer(q.question, need_chart)
+#     answer = Answer(sql=out['query'], result=out['result'], answer=out['answer'])
+#     if(out['image'] != None):
+#         answer.image = out['image']
+#     return answer
+
+
+@app.post("/ask")
+def ask_question(request: dict):
+    question = request.get("question", "")
+    return {"answer": f"Echo: {question}", "image": None}
+
 
 # if __name__ == "__main__":
 #     while True:

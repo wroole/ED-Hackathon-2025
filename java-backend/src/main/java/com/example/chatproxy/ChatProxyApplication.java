@@ -1,11 +1,11 @@
-package com.example.testbackend;
+package com.example.chatproxy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChatBackendApplication {
+public class ChatProxyApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ChatBackendApplication.class, args);
+        SpringApplication.run(ChatProxyApplication.class, args);
     }
 }

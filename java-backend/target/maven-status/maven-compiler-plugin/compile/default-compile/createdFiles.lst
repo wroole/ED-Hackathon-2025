@@ -1,2 +1,3 @@
-com\example\testbackend\ChatBackendApplication.class
-com\example\testbackend\ChatController.class
+com\example\chatproxy\Message.class
+com\example\chatproxy\ChatProxyApplication.class
+com\example\chatproxy\ChatController.class
