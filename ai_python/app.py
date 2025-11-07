@@ -153,13 +153,43 @@ def generate_chart_image(df: pd.DataFrame, spec: dict) -> str | None:
     plt.close()
     return url
 
-# def find_answer(question: str):
-#     q = question.lower()
-#     if any(t in q for t in ["де я жив", "де жив", "де мешкаю",
-#         "kde bývam", "kde byvam", "kde žijem",
-#         "where do i live", "where i live"]):
-#         answer = data.
-    
+def find_answer(question: str):
+    q = question.lower()
+    if any(t in q for t in ["де я жив", "де жив", "де мешкаю",
+        "kde bývam", "kde byvam", "kde žijem",
+        "where do i live", "where i live"]):
+        sql_query = f"""
+        SELECT city, SUM(receipt_price) AS total_spent
+        FROM sales
+        GROUP BY city
+        ORDER BY total_spent DESC
+        LIMIT 1;
+        """
+        with sqlite3.connect('sales.db') as conn:
+            answer = pd.read_sql_query(sql_query, conn)
+        return answer.loc[0, 'city']
+    elif any(t in q for t in  [
+        "mám psa", "mam psa", "mam mačku", "mám mačku", "mám domáce zviera", "mam domace zviera",
+        "я маю собаку", "я маю кота", "чи є у мене собака", "чи є у мене кіт", "я маю домашню тварину", "чи є у мене домашня тварина",
+        "do i have a dog", "have a dog", "do i have a cat", "have a cat", "do i have a pet", "have a pet"]):
+        sql_query = f"""
+        SELECT DISTINCT name
+        FROM sales
+        WHERE
+        LOWER(COALESCE(category, '')) LIKE '%pet%'
+        OR LOWER(COALESCE(name, '')) LIKE '%mačk%'
+        OR LOWER(COALESCE(name, '')) LIKE '%psie%'
+        OR LOWER(COALESCE(name, '')) LIKE '%krmivo%';
+        """
+        with sqlite3.connect('sales.db') as conn:
+            answer = pd.read_sql_query(sql_query, conn)
+        if(len(answer) > 5):
+            return True
+        else:
+            return False
+    else:
+        return None
+
 
 def question_sql_answer(question: str, need_chart: bool) -> dict:
     sql = generate_sql(question)
@@ -182,7 +212,7 @@ def question_sql_answer(question: str, need_chart: bool) -> dict:
         return generate_answer({
             "question": question,
             "sql": 'SMALL_TALK',
-            "result": [],
+            "result": find_answer(question),
             "image": None
         })
     else:
