@@ -297,7 +297,9 @@ class Answer(BaseModel):
 def ask(q: Question):
     need_chart = (q.chart is True) or (q.chart is None and detect_graph_request(q.question))
     out = question_sql_answer(q.question, need_chart)
-    answer = Answer(sql=out['query'], result=out['result'], answer=out['answer'])
+    answer = Answer(result=out['result'], answer=out['answer'])
+    if(out['query'] != None):
+        answer.sql = out['query']
     if(out['image'] != None):
         answer.image = out['image']
     return answer
