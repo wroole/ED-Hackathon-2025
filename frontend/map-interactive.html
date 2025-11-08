@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Map</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- JS библиотеки -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body class="map-page">
+<!-- ======= ВЕРХНЯЯ ПАНЕЛЬ ======= -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">
+            <a href="main.html">
+                <svg viewBox="0 0 180 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                    <text x="20" y="24" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">
+                        Hackaroni
+                    </text>
+                    <text x="20" y="44" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF">
+                        ERSTE Databot
+                    </text>
+                </svg>
+            </a>
+        </div>
+        <div class="nav-controls">
+            <a href="map-interactive.html"><button class="nav-btn"><img src="IMAGES/Map_Button.png" alt="Map" /></button></a>
+            <a href="statistic.html"><button class="nav-btn"><img src="IMAGES/Stat_button.png" alt="Statistics" /></button></a>
+            <button class="nav-btn"><img src="IMAGES/Me.png" alt="Idea" /></button>
+            <button class="nav-btn"><img src="IMAGES/team.png" alt="Team" /></button>
+            <button id="theme-toggle" class="nav-btn theme-toggle">
+                <img id="theme-icon" src="IMAGES/Light_Theme.png" alt="Toggle theme" />
+            </button>
+        </div>
+    </nav>
+</header>
+
+<div id="idea-panel" class="idea-panel">
+    <div class="idea-content">
+        <h3>💡 Идея проекта</h3>
+        <p>Создать умного помощника для Erste Digital, который анализирует данные и помогает принимать решения быстрее и точнее.</p>
+    </div>
+</div>
+
+<!-- ======= ФОН ======= -->
+<div id="banner" class="banner"></div>
+
+<!-- ======= КАРТА ======= -->
+<section class="panel">
+    <div id="map"></div>
+</section>
+
+<!-- ======= СКРИПТЫ ======= -->
+<script src="theme.js"></script>
+<script src="map-interactive.js"></script>
+
+</body>
+</html>

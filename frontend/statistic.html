@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Erste Digital — Статистика</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Three.js и Vanta.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+
+  <!-- Стили -->
+  <link rel="stylesheet" href="statistic_style.css">
+</head>
+<body>
+  <!-- ======= Фон ======= -->
+  <div id="vanta-bg"></div>
+
+  <!-- ======= ВЕРХНЯЯ ПАНЕЛЬ ======= -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+          <a href="main.html">
+          <svg viewBox="0 0 180 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+            <text x="20" y="24" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">
+              Hackaroni
+            </text>
+            <text x="20" y="44" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF">
+              ERSTE Digital
+            </text>
+          </svg>
+        </a>
+      </div>
+
+        <div id="idea-panel" class="idea-panel">
+            <div class="idea-content">
+                <h3>💡 Идея проекта</h3>
+                <p>Создать умного помощника для Erste Digital, который анализирует данные и помогает принимать решения быстрее и точнее.</p>
+            </div>
+        </div>
+
+      <div class="nav-controls">
+          <a href="map-interactive.html"><button class="nav-btn"><img src="IMAGES/Map_Button.png" alt="Map" /></button></a>
+          <a href="statistic.html"><button class="nav-btn"><img src="IMAGES/Stat_button.png" alt="Statistics" /></button></a>
+          <button id="idea-btn" class="nav-btn"><img src="IMAGES/Me.png" alt="Idea" /></button>
+          <button class="nav-btn"><img src="IMAGES/team.png" alt="Team" /></button>
+          <button id="theme-toggle" class="nav-btn theme-toggle">
+              <img id="theme-icon" src="IMAGES/Light_Theme.png" alt="Toggle theme" />
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ======= ОСНОВНОЙ КОНТЕНТ ======= -->
+  <main class="main-content">
+    <section class="grid">
+      <article class="chart-card"><div class="chart-wrap"><canvas id="chart1"></canvas></div></article>
+      <article class="chart-card"><div class="chart-wrap"><canvas id="chart2"></canvas></div></article>
+      <article class="chart-card"><div class="chart-wrap"><canvas id="chart3"></canvas></div></article>
+      <article class="chart-card"><div class="chart-wrap"><canvas id="chart4"></canvas></div></article>
+      <article class="chart-card"><div class="chart-wrap"><canvas id="chart5"></canvas></div></article>
+      <article class="chart-card"><div class="chart-wrap"><canvas id="chart6"></canvas></div></article>
+    </section>
+  </main>
+
+  <!-- Скрипт -->
+  <script src="statistics_back.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackaroni</title>
+
+  <link rel="stylesheet" href="Style.css" />
+
+  <!-- Three.js и Vanta -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+</head>
+<body>
+  <!-- ======= ВЕРХНЯЯ ПАНЕЛЬ ======= -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="main.html">
+          <svg viewBox="0 0 180 60" xmlns="http://www.w3.org/2000/svg">
+            <text x="20" y="24" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">
+              Hackaroni
+            </text>
+            <text x="20" y="44" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF">
+              ERSTE Databot
+            </text>
+          </svg>
+        </a>
+      </div>
+      <div class="nav-controls">
+        <a href="map-interactive.html"><button class="nav-btn"><img src="IMAGES/Map_Button.png" alt="Map" /></button></a>
+          <a href="statistic.html"><button class="nav-btn"><img src="IMAGES/Stat_button.png" alt="Statistics" /></button></a>
+        <button id="idea-btn" class="nav-btn"><img src="IMAGES/Me.png" alt="Idea" /></button>
+        <button class="nav-btn"><img src="IMAGES/team.png" alt="Team" /></button>
+        <button id="theme-toggle" class="nav-btn theme-toggle">
+          <img id="theme-icon" src="IMAGES/Light_Theme.png" alt="Toggle theme" />
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- ======= ПАНЕЛЬ IDEA ======= -->
+  <div id="idea-panel" class="idea-panel">
+    <div class="idea-content"></div>
+  </div>
+
+  <!-- ======= ЧАТ ======= -->
+  <section id="banner" class="banner">
+    <div class="chat-wrapper">
+      <div class="chat" id="chat">
+        <div id="chat-box" class="chat-box"></div>
+        <form id="chat-input" class="chat-input" autocomplete="off">
+          <input type="text" id="user-input" placeholder="Enter a message..." required />
+          <button id="send-btn" type="submit">➤</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подключаем JS -->
+  <script src="index.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>
+                

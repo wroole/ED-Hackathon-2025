@@ -1,0 +1,2034 @@
+[
+  {
+    "org_name":"Lidl",
+    "city":"Bratislava",
+    "street":"Tren\u010dianska II.",
+    "longitude":17.1449668,
+    "latitude":48.1530182,
+    "receipt_price":3527.98
+  },
+  {
+    "org_name":"Lidl",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":3088.05
+  },
+  {
+    "org_name":"DALITRANS",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"M. R. \u0160tef\u00e1nika",
+    "longitude":17.1580345,
+    "latitude":48.6489574,
+    "receipt_price":1530.9
+  },
+  {
+    "org_name":"BESTAV",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"Z\u00e1poto\u010dn\u00e1",
+    "longitude":17.1577057,
+    "latitude":48.6284083,
+    "receipt_price":1303.8
+  },
+  {
+    "org_name":"Barmis",
+    "city":"Bratislava",
+    "street":"Drie\u0148ov\u00e1",
+    "longitude":17.1444648,
+    "latitude":48.1584839,
+    "receipt_price":1084.2
+  },
+  {
+    "org_name":"HORNBACH - Baumarkt",
+    "city":"Bratislava",
+    "street":"Dev\u00ednska Nov\u00e1 Ves",
+    "longitude":17.0200933,
+    "latitude":48.2057193,
+    "receipt_price":917.11
+  },
+  {
+    "org_name":"Fakultn\u00e1 nemocnica s poliklinikou F D Roosevelta Bansk\u00e1 Bystrica \u0161t\u00e1tna pr\u00edspevkov\u00e1 organiz\u00e1cia",
+    "city":"Partiz\u00e1nska \u013dup\u010da",
+    "street":"\u017delezn\u00f4",
+    "longitude":19.3934942,
+    "latitude":48.9536496,
+    "receipt_price":813.5
+  },
+  {
+    "org_name":"STAVCENTRUM A-Z",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"M.R. \u0160tef\u00e1nika",
+    "longitude":17.1555926,
+    "latitude":48.648236,
+    "receipt_price":790.02
+  },
+  {
+    "org_name":"COOP Jednota",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"\u0160a\u0161t\u00edn-Str\u00e1\u017ee",
+    "longitude":17.1439377,
+    "latitude":48.6380414,
+    "receipt_price":666.49
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1300312,
+    "latitude":48.1462159,
+    "receipt_price":580.3
+  },
+  {
+    "org_name":"Lidl",
+    "city":"Senica",
+    "street":"Tov\u00e1rensk\u00e1",
+    "longitude":17.3654949,
+    "latitude":48.6835217,
+    "receipt_price":548.04
+  },
+  {
+    "org_name":"Lidl",
+    "city":"Bratislava",
+    "street":"Jir\u00e1skova",
+    "longitude":17.1004467,
+    "latitude":48.1128351,
+    "receipt_price":498.06
+  },
+  {
+    "org_name":"\u0160tatistick\u00e9 a eviden\u010dn\u00e9 vydavate\u013estvo tla\u010d\u00edv \u0160EVT skr\u00e1ten\u00e1 verzia obchodn\u00e9ho mena",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":427.31
+  },
+  {
+    "org_name":"TESCO STORES",
+    "city":"K\u00faty",
+    "street":"\u0160tef\u00e1nikova",
+    "longitude":17.0226617,
+    "latitude":48.657864,
+    "receipt_price":414.13
+  },
+  {
+    "org_name":"Husacina Galik",
+    "city":"Slovensk\u00fd Grob",
+    "street":"Lipov\u00e1",
+    "longitude":17.2752732,
+    "latitude":48.2598136,
+    "receipt_price":407.6
+  },
+  {
+    "org_name":"Peek & Cloppenburg",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":395.16
+  },
+  {
+    "org_name":"Bioaspa",
+    "city":"K\u00faty",
+    "street":"Holl\u00e9ho",
+    "longitude":17.0116554,
+    "latitude":48.6572185,
+    "receipt_price":381.2
+  },
+  {
+    "org_name":"1 DENT\u00c1LNE CENTRUM",
+    "city":"Bratislava",
+    "street":"Z\u00e1poro\u017esk\u00e1",
+    "longitude":17.0972797,
+    "latitude":48.1263382,
+    "receipt_price":376.0
+  },
+  {
+    "org_name":"Tom\u00e1\u0161 Haba - Rozli\u010dn\u00fd tovar",
+    "city":"\u0160tefanov",
+    "street":"\u0160tefanov",
+    "longitude":17.1998277,
+    "latitude":48.6808287,
+    "receipt_price":323.53
+  },
+  {
+    "org_name":"Leberko",
+    "city":"Bratislava",
+    "street":"Tren\u010dianska",
+    "longitude":17.1391596,
+    "latitude":48.1525516,
+    "receipt_price":321.2
+  },
+  {
+    "org_name":"Medusa Restaurants",
+    "city":"Bratislava",
+    "street":"Kr\u00ed\u017ena",
+    "longitude":17.1282908,
+    "latitude":48.1578904,
+    "receipt_price":312.8
+  },
+  {
+    "org_name":"Decathlon",
+    "city":"Bratislava",
+    "street":"Dev\u00ednska Nov\u00e1 Ves",
+    "longitude":17.0255653,
+    "latitude":48.205945,
+    "receipt_price":310.05
+  },
+  {
+    "org_name":"TRICK",
+    "city":"Bratislava",
+    "street":"Pre\u0161ovska",
+    "longitude":17.1437948,
+    "latitude":48.160531,
+    "receipt_price":309.7
+  },
+  {
+    "org_name":"Peek & Cloppenburg",
+    "city":"Bratislava",
+    "street":"IV\u00c1NSKA CESTA",
+    "longitude":17.1803977,
+    "latitude":48.1653268,
+    "receipt_price":299.96
+  },
+  {
+    "org_name":"BENU 61",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":297.58
+  },
+  {
+    "org_name":"Irin",
+    "city":"Bratislava",
+    "street":"Rudnayovo n\u00e1mestie",
+    "longitude":17.10576,
+    "latitude":48.1422213,
+    "receipt_price":296.0
+  },
+  {
+    "org_name":"WANI",
+    "city":"Borsk\u00fd Mikul\u00e1\u0161",
+    "street":"Na V\u00fdhone",
+    "longitude":17.1920087,
+    "latitude":48.6417462,
+    "receipt_price":287.0
+  },
+  {
+    "org_name":"Tom\u00e1\u0161 Haba",
+    "city":"\u0160tefanov",
+    "street":"\u0160tefanov",
+    "longitude":17.1998277,
+    "latitude":48.6808287,
+    "receipt_price":283.52
+  },
+  {
+    "org_name":"Medusa Restaurants",
+    "city":"Bratislava",
+    "street":"Staroh\u00e1jska",
+    "longitude":17.1192346,
+    "latitude":48.1184624,
+    "receipt_price":283.1
+  },
+  {
+    "org_name":"EMKAR market",
+    "city":"Bratislava",
+    "street":"Dulovo n\u00e1m.",
+    "longitude":17.1346718,
+    "latitude":48.1491689,
+    "receipt_price":257.6
+  },
+  {
+    "org_name":"ALBI",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":254.12
+  },
+  {
+    "org_name":"Team Up",
+    "city":"Bratislava",
+    "street":"Studen\u00e1",
+    "longitude":17.1790016,
+    "latitude":48.183316,
+    "receipt_price":253.9
+  },
+  {
+    "org_name":"BRIGHT INVESTMENT GROUP",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1277397,
+    "latitude":48.147324,
+    "receipt_price":236.25
+  },
+  {
+    "org_name":"CCC",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":233.66
+  },
+  {
+    "org_name":"ALLTOYS",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":224.13
+  },
+  {
+    "org_name":"Peek & Cloppenburg",
+    "city":"Bratislava",
+    "street":"PRIBINOVA",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":223.22
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"M\u00fdtna",
+    "longitude":17.1184873,
+    "latitude":48.1562648,
+    "receipt_price":219.0
+  },
+  {
+    "org_name":"EFLEK",
+    "city":"Bratislava",
+    "street":"Ko\u0161ick\u00e1",
+    "longitude":17.1363029,
+    "latitude":48.152176,
+    "receipt_price":211.01
+  },
+  {
+    "org_name":"Ba\u0165a",
+    "city":"Bratislava",
+    "street":"SNP",
+    "longitude":17.1138034,
+    "latitude":48.1441358,
+    "receipt_price":209.91
+  },
+  {
+    "org_name":"LA MODA",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Luhy",
+    "longitude":17.1795679,
+    "latitude":48.1542541,
+    "receipt_price":189.0
+  },
+  {
+    "org_name":"KOTVI\u010cKA",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"Novovesk\u00e1",
+    "longitude":17.1545934,
+    "latitude":48.6356708,
+    "receipt_price":184.35
+  },
+  {
+    "org_name":"Tradi\u010dn\u00e9 dru\u017estvo",
+    "city":"Dedinky",
+    "street":"Dob\u0161insk\u00e1 Ma\u0161a",
+    "longitude":20.3723352,
+    "latitude":48.8585097,
+    "receipt_price":180.3
+  },
+  {
+    "org_name":"SPARKYS",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":177.69
+  },
+  {
+    "org_name":"Pepco",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":169.7
+  },
+  {
+    "org_name":"Lidl",
+    "city":"Bratislava",
+    "street":"Vajnorsk\u00e1",
+    "longitude":17.1396851,
+    "latitude":48.1686279,
+    "receipt_price":163.5
+  },
+  {
+    "org_name":"TESCO STORES",
+    "city":"Bratislava",
+    "street":"Ko\u0161ick\u00e1",
+    "longitude":17.1328627,
+    "latitude":48.1482965,
+    "receipt_price":158.78
+  },
+  {
+    "org_name":"Decathlon",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":150.8
+  },
+  {
+    "org_name":"BILLA",
+    "city":"Bratislava",
+    "street":"Pribinova ul.",
+    "longitude":17.1226517,
+    "latitude":48.1407299,
+    "receipt_price":125.71
+  },
+  {
+    "org_name":"Fertucha",
+    "city":"Bratislava",
+    "street":"Ko\u0161ick\u00e1",
+    "longitude":17.1354396,
+    "latitude":48.1506544,
+    "receipt_price":125.7
+  },
+  {
+    "org_name":"ECCO Retail ()",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":120.0
+  },
+  {
+    "org_name":"ProZeta",
+    "city":"Bratislava",
+    "street":"S\u00fakenn\u00edcka",
+    "longitude":17.1345065,
+    "latitude":48.1430232,
+    "receipt_price":117.8
+  },
+  {
+    "org_name":"Ferdinand Be\u0148a",
+    "city":"Senica",
+    "street":"V Uli\u010dke",
+    "longitude":17.3394007,
+    "latitude":48.6778658,
+    "receipt_price":111.0
+  },
+  {
+    "org_name":"\u0160makNinka",
+    "city":"Stupava",
+    "street":"Nov\u00e1",
+    "longitude":17.0487959,
+    "latitude":48.2795206,
+    "receipt_price":108.6
+  },
+  {
+    "org_name":"Ernest Ravasz",
+    "city":"Jelka",
+    "street":"Bels\u0151 Z\u00e1tony",
+    "longitude":17.5040491,
+    "latitude":48.1252656,
+    "receipt_price":107.3
+  },
+  {
+    "org_name":"BAVE",
+    "city":"Bratislava",
+    "street":"Martin\u010dekova",
+    "longitude":17.1498417,
+    "latitude":48.1502835,
+    "receipt_price":106.9
+  },
+  {
+    "org_name":"Horeca Professionals",
+    "city":"Bratislava",
+    "street":"Dulovo n\u00e1mestie",
+    "longitude":17.1333134,
+    "latitude":48.1497908,
+    "receipt_price":106.5
+  },
+  {
+    "org_name":"CALZEDONIA SLOVAK",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":104.6
+  },
+  {
+    "org_name":"TCHIBO",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1300312,
+    "latitude":48.1462159,
+    "receipt_price":103.94
+  },
+  {
+    "org_name":"LANE SPORT",
+    "city":"Bratislava",
+    "street":"Tupolevova",
+    "longitude":17.1043313,
+    "latitude":48.1156686,
+    "receipt_price":103.9
+  },
+  {
+    "org_name":"Medusa Restaurants",
+    "city":"Bratislava",
+    "street":"Sv\u00e4toplukova",
+    "longitude":17.1310831,
+    "latitude":48.1477111,
+    "receipt_price":101.7
+  },
+  {
+    "org_name":"GINO FOOD & BEVERAGE CORPORATION",
+    "city":"Bratislava",
+    "street":"Toma\u0161ikova",
+    "longitude":17.1438335,
+    "latitude":48.1723749,
+    "receipt_price":100.29
+  },
+  {
+    "org_name":"PROVINO",
+    "city":"Bratislava",
+    "street":"Vent\u00farska",
+    "longitude":17.106306,
+    "latitude":48.1425064,
+    "receipt_price":99.9
+  },
+  {
+    "org_name":"CALZEDONIA SLOVAK",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":99.7
+  },
+  {
+    "org_name":"ERB - Eduard Rada Breweries",
+    "city":"Bansk\u00e1 \u0160tiavnica",
+    "street":"Novoz\u00e1mock\u00e1",
+    "longitude":18.8934733,
+    "latitude":48.4582008,
+    "receipt_price":98.2
+  },
+  {
+    "org_name":"Patient Management Services",
+    "city":"Bratislava",
+    "street":"Radlinsk\u00e9ho",
+    "longitude":17.1177483,
+    "latitude":48.1526134,
+    "receipt_price":98.0
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":98.0
+  },
+  {
+    "org_name":"Leder & Schuh",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":97.85
+  },
+  {
+    "org_name":"Cinema City",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":95.5
+  },
+  {
+    "org_name":"INFINITY team",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1301738,
+    "latitude":48.1467213,
+    "receipt_price":92.98
+  },
+  {
+    "org_name":"Kaufland",
+    "city":"Bratislava",
+    "street":"Jant\u00e1rov\u00e1 cesta",
+    "longitude":17.1073901,
+    "latitude":48.1158152,
+    "receipt_price":92.75
+  },
+  {
+    "org_name":"artBOX",
+    "city":"Bratislava",
+    "street":"M\u00fdtna",
+    "longitude":17.1174813,
+    "latitude":48.1560603,
+    "receipt_price":90.6
+  },
+  {
+    "org_name":"Quintela Gastro",
+    "city":"Bratislava",
+    "street":"Mickiewiczova",
+    "longitude":17.1142659,
+    "latitude":48.1495488,
+    "receipt_price":84.2
+  },
+  {
+    "org_name":"Radovan Bar\u00e1nek",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"N\u00e1mestie Slobody",
+    "longitude":17.1537741,
+    "latitude":48.6363852,
+    "receipt_price":82.35
+  },
+  {
+    "org_name":"BAM - EKO",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":82.05
+  },
+  {
+    "org_name":"Eventissimi",
+    "city":"Bratislava",
+    "street":"Beblav\u00e9ho",
+    "longitude":17.1037848,
+    "latitude":48.1420148,
+    "receipt_price":81.55
+  },
+  {
+    "org_name":"Kaufland",
+    "city":"Bratislava",
+    "street":"Harmincova",
+    "longitude":17.0528948,
+    "latitude":48.1779961,
+    "receipt_price":80.27
+  },
+  {
+    "org_name":"TCHIBO",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":79.95
+  },
+  {
+    "org_name":"Ivan Harasn\u00edk",
+    "city":"Borsk\u00fd Mikul\u00e1\u0161",
+    "street":"Na V\u00fdhone",
+    "longitude":17.1920087,
+    "latitude":48.6417462,
+    "receipt_price":78.9
+  },
+  {
+    "org_name":"OMV",
+    "city":"Bansk\u00e1 Bystrica",
+    "street":"Jakubsk\u00e1 cesta",
+    "longitude":19.1390297,
+    "latitude":48.7644043,
+    "receipt_price":77.52
+  },
+  {
+    "org_name":"FINAL - CD plus",
+    "city":"Bratislava",
+    "street":"Mierov\u00e1",
+    "longitude":17.1591727,
+    "latitude":48.1493507,
+    "receipt_price":76.4
+  },
+  {
+    "org_name":"SLOVNAFT",
+    "city":"Leopoldov",
+    "street":"N\u00e1dra\u017en\u00e1",
+    "longitude":17.7705542,
+    "latitude":48.4356702,
+    "receipt_price":76.35
+  },
+  {
+    "org_name":"CARDIF",
+    "city":"Zvolen",
+    "street":"Lu\u010deneck\u00e1 cesta",
+    "longitude":19.1420581,
+    "latitude":48.5669154,
+    "receipt_price":75.99
+  },
+  {
+    "org_name":"APLEND",
+    "city":"Bratislava",
+    "street":"Zelen\u00e1",
+    "longitude":17.1072165,
+    "latitude":48.1429081,
+    "receipt_price":75.6
+  },
+  {
+    "org_name":"SLOVNAFT",
+    "city":"Bratislava",
+    "street":"Dolnozemsk\u00e1",
+    "longitude":17.1225074,
+    "latitude":48.1060697,
+    "receipt_price":74.93
+  },
+  {
+    "org_name":"OMV",
+    "city":"Bratislava",
+    "street":"Pri Se\u010di",
+    "longitude":17.1205813,
+    "latitude":48.1313825,
+    "receipt_price":72.6
+  },
+  {
+    "org_name":"Cipele",
+    "city":"Bratislava",
+    "street":"Nev\u00e4dzova",
+    "longitude":17.1578252,
+    "latitude":48.1517881,
+    "receipt_price":72.0
+  },
+  {
+    "org_name":"Martinus",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":71.89
+  },
+  {
+    "org_name":"BILLA",
+    "city":"Bratislava",
+    "street":"N\u00e1m. Hrani\u010diarov",
+    "longitude":17.1152055,
+    "latitude":48.122348,
+    "receipt_price":71.55
+  },
+  {
+    "org_name":"Liasam",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1301738,
+    "latitude":48.1467213,
+    "receipt_price":69.8
+  },
+  {
+    "org_name":"Gastro Eurovea",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1222714,
+    "latitude":48.1402678,
+    "receipt_price":69.17
+  },
+  {
+    "org_name":"Brandbq",
+    "city":"Bratislava",
+    "street":"Einsteinova",
+    "longitude":17.1095327,
+    "latitude":48.132256,
+    "receipt_price":66.95
+  },
+  {
+    "org_name":"Apetita",
+    "city":"Bratislava",
+    "street":"Zuzany Chalupovej",
+    "longitude":17.1183939,
+    "latitude":48.0930972,
+    "receipt_price":66.0
+  },
+  {
+    "org_name":"Xuan Duc Do -DHY",
+    "city":"\u0160tefanov",
+    "street":"\u0160tefanov",
+    "longitude":17.1999634,
+    "latitude":48.6774796,
+    "receipt_price":65.76
+  },
+  {
+    "org_name":"Lek\u00e1re\u0148 \u0160USTEKOVA",
+    "city":"Bratislava",
+    "street":"\u0160ustekova",
+    "longitude":17.1238322,
+    "latitude":48.1284631,
+    "receipt_price":64.42
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"Mileti\u010dova",
+    "longitude":17.1343927,
+    "latitude":48.1544159,
+    "receipt_price":61.7
+  },
+  {
+    "org_name":"DH Gastronomy",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1569959,
+    "latitude":48.1438871,
+    "receipt_price":60.85
+  },
+  {
+    "org_name":"OBI",
+    "city":"Bratislava",
+    "street":"HODON\u00cdNSKA",
+    "longitude":17.0402526,
+    "latitude":48.2070061,
+    "receipt_price":60.73
+  },
+  {
+    "org_name":"BAL TIP",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"N\u00c1MESTIE SLOBODY",
+    "longitude":17.1544052,
+    "latitude":48.6368933,
+    "receipt_price":59.4
+  },
+  {
+    "org_name":"VLR",
+    "city":"Bratislava",
+    "street":"M\u00fdtna",
+    "longitude":17.1190075,
+    "latitude":48.1566748,
+    "receipt_price":59.22
+  },
+  {
+    "org_name":"Bc Mgr M\u00e1ria Hromkovi\u010dov\u00e1",
+    "city":"Borsk\u00fd Sv\u00e4t\u00fd Jur",
+    "street":"SNP",
+    "longitude":17.0443689,
+    "latitude":48.6115909,
+    "receipt_price":58.9
+  },
+  {
+    "org_name":"Quintela Gastro",
+    "city":"Bratislava",
+    "street":"Mileti\u010dova",
+    "longitude":17.1381492,
+    "latitude":48.153069,
+    "receipt_price":58.0
+  },
+  {
+    "org_name":"H & M Hennes & Mauritz",
+    "city":"Bratislava",
+    "street":"Iv\u00e1nska cesta",
+    "longitude":17.1797154,
+    "latitude":48.1663498,
+    "receipt_price":57.95
+  },
+  {
+    "org_name":"BILLA",
+    "city":"Bernol\u00e1kovo",
+    "street":"Slne\u010dnicov\u00e1",
+    "longitude":17.2916475,
+    "latitude":48.1939128,
+    "receipt_price":54.53
+  },
+  {
+    "org_name":"R&M Ko\u0161ice",
+    "city":"Ko\u0161ice",
+    "street":"Bo\u010dn\u00e1",
+    "longitude":21.2570701,
+    "latitude":48.7190275,
+    "receipt_price":54.5
+  },
+  {
+    "org_name":"WAD",
+    "city":"Bratislava",
+    "street":"Karpatsk\u00e1",
+    "longitude":17.1134874,
+    "latitude":48.1577234,
+    "receipt_price":54.4
+  },
+  {
+    "org_name":"WADART",
+    "city":"Bratislava",
+    "street":"Karpatsk\u00e1",
+    "longitude":17.1134396,
+    "latitude":48.1576593,
+    "receipt_price":54.1
+  },
+  {
+    "org_name":"TERNO real estate",
+    "city":"Bratislava",
+    "street":"Nev\u00e4dzov\u00e1",
+    "longitude":17.1578252,
+    "latitude":48.1517881,
+    "receipt_price":54.08
+  },
+  {
+    "org_name":"Quang Minh Vu podnik zahrani\u010dnej osoby",
+    "city":"Bratislava",
+    "street":"Dulovo n\u00e1mestie",
+    "longitude":17.1335007,
+    "latitude":48.1491474,
+    "receipt_price":53.65
+  },
+  {
+    "org_name":"FITNESS PROGRES",
+    "city":"Bratislava",
+    "street":"Zuzany Chalupovej",
+    "longitude":17.1183939,
+    "latitude":48.0930972,
+    "receipt_price":53.4
+  },
+  {
+    "org_name":"Daniel Kapusta",
+    "city":"Bansk\u00e1 Bystrica",
+    "street":"Kapitulsk\u00e1",
+    "longitude":19.1476825,
+    "latitude":48.7349992,
+    "receipt_price":52.25
+  },
+  {
+    "org_name":"Tibor Varga TSV Papier",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":51.31
+  },
+  {
+    "org_name":"ALNIST",
+    "city":"Bratislava",
+    "street":"Dulovo n\u00e1mestie",
+    "longitude":17.1333134,
+    "latitude":48.1497908,
+    "receipt_price":50.81
+  },
+  {
+    "org_name":"BENU 151",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1297657,
+    "latitude":48.1576095,
+    "receipt_price":50.56
+  },
+  {
+    "org_name":"LEMBERG GROUP",
+    "city":"Bansk\u00e1 \u0160tiavnica",
+    "street":"Andreja Kme\u0165a",
+    "longitude":18.8948388,
+    "latitude":48.4586625,
+    "receipt_price":50.0
+  },
+  {
+    "org_name":"DEICHMANN-OBUV",
+    "city":"Bratislava",
+    "street":"Mlynske nivy",
+    "longitude":17.1300312,
+    "latitude":48.1462159,
+    "receipt_price":49.99
+  },
+  {
+    "org_name":"OBI",
+    "city":"Bratislava",
+    "street":"BAJKALSK\u00c1",
+    "longitude":17.1501055,
+    "latitude":48.1435984,
+    "receipt_price":49.96
+  },
+  {
+    "org_name":"TEDi Betriebs",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":49.35
+  },
+  {
+    "org_name":"Tesco Franchise Stores",
+    "city":"Bratislava",
+    "street":"Mliekarensk\u00e1",
+    "longitude":17.1419614,
+    "latitude":48.1517735,
+    "receipt_price":48.47
+  },
+  {
+    "org_name":"Inditex",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":46.8
+  },
+  {
+    "org_name":"ADJ",
+    "city":"Bratislava",
+    "street":"Ra\u010dianske m\u00fdto",
+    "longitude":17.1205025,
+    "latitude":48.1589729,
+    "receipt_price":45.2
+  },
+  {
+    "org_name":"TESCO STORES",
+    "city":"Bratislava",
+    "street":"Pan\u00f3nska cesta",
+    "longitude":17.0967045,
+    "latitude":48.1040351,
+    "receipt_price":44.05
+  },
+  {
+    "org_name":"decoLED",
+    "city":"Pre\u0161ov",
+    "street":"\u013d. Podjavorinskej",
+    "longitude":21.2644382,
+    "latitude":48.9789878,
+    "receipt_price":44.0
+  },
+  {
+    "org_name":"Bytservis - UB",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"Z\u00e1poto\u010dn\u00e1",
+    "longitude":17.1526511,
+    "latitude":48.6359322,
+    "receipt_price":43.76
+  },
+  {
+    "org_name":"BUPPI",
+    "city":"Bratislava",
+    "street":"Lama\u010d",
+    "longitude":17.0337808,
+    "latitude":48.2057363,
+    "receipt_price":43.7
+  },
+  {
+    "org_name":"Eva Ladzianska - F O T",
+    "city":"Bratislava",
+    "street":"Mileti\u010dova",
+    "longitude":17.1357295,
+    "latitude":48.1544523,
+    "receipt_price":43.01
+  },
+  {
+    "org_name":"JUMP Park Senica",
+    "city":"Senica",
+    "street":"\u017delezni\u010dn\u00e1",
+    "longitude":17.337858,
+    "latitude":48.6679216,
+    "receipt_price":42.0
+  },
+  {
+    "org_name":"Dr\u00e1\u010dik DIVI",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":41.57
+  },
+  {
+    "org_name":"EU POLYMER LTD",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1286972,
+    "latitude":48.1468397,
+    "receipt_price":40.62
+  },
+  {
+    "org_name":"CORK GROUP",
+    "city":"Bratislava",
+    "street":"Pansk\u00e1",
+    "longitude":17.108145,
+    "latitude":48.142793,
+    "receipt_price":39.3
+  },
+  {
+    "org_name":"PAG investment",
+    "city":"Bratislava",
+    "street":"Drobn\u00e9ho",
+    "longitude":17.0396406,
+    "latitude":48.1931812,
+    "receipt_price":39.0
+  },
+  {
+    "org_name":"Em\u00edlia Puli\u0161ov\u00e1 - Sala\u0161 Hron Milan Puli\u0161 - pr\u00e1vny n\u00e1stupca",
+    "city":"Kov\u00e1\u010dov\u00e1",
+    "street":"Bystrick\u00e1",
+    "longitude":19.1036706,
+    "latitude":48.5968876,
+    "receipt_price":38.1
+  },
+  {
+    "org_name":"M K M TRADING",
+    "city":"Modra",
+    "street":"\u0160turova",
+    "longitude":17.311762,
+    "latitude":48.3341131,
+    "receipt_price":38.0
+  },
+  {
+    "org_name":"Lindex",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":37.97
+  },
+  {
+    "org_name":"i-kafe",
+    "city":"Modra",
+    "street":"\u0160t\u00farova",
+    "longitude":17.310648,
+    "latitude":48.3360336,
+    "receipt_price":37.5
+  },
+  {
+    "org_name":"Centrum zdrav\u00e9ho tela a du\u0161e",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1300312,
+    "latitude":48.1462159,
+    "receipt_price":36.98
+  },
+  {
+    "org_name":"BILLA",
+    "city":"Bratislava",
+    "street":"Karad\u017ei\u010dova",
+    "longitude":17.1259582,
+    "latitude":48.1502838,
+    "receipt_price":36.54
+  },
+  {
+    "org_name":"Tiger Stores",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":35.5
+  },
+  {
+    "org_name":"Pirex",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1300312,
+    "latitude":48.1462159,
+    "receipt_price":35.5
+  },
+  {
+    "org_name":"TESCO STORES",
+    "city":"Bratislava",
+    "street":"Martin\u010dekova",
+    "longitude":17.1482882,
+    "latitude":48.1497015,
+    "receipt_price":34.93
+  },
+  {
+    "org_name":"Melange",
+    "city":"Bratislava",
+    "street":"Ko\u0161ick\u00e1",
+    "longitude":17.1345648,
+    "latitude":48.1502978,
+    "receipt_price":34.9
+  },
+  {
+    "org_name":"Divn\u00e1 pani",
+    "city":"Bansk\u00e1 \u0160tiavnica",
+    "street":"Andreja Kme\u0165a",
+    "longitude":18.8943772,
+    "latitude":48.4587426,
+    "receipt_price":34.0
+  },
+  {
+    "org_name":"Majolika-R",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":33.95
+  },
+  {
+    "org_name":"3S DENT",
+    "city":"Bratislava",
+    "street":"\u0160ancov\u00e1",
+    "longitude":17.1248604,
+    "latitude":48.1575286,
+    "receipt_price":33.0
+  },
+  {
+    "org_name":"BORARI",
+    "city":"Bratislava",
+    "street":"Z\u00e1hradn\u00edcka",
+    "longitude":17.4857864,
+    "latitude":48.1831471,
+    "receipt_price":32.45
+  },
+  {
+    "org_name":"VENGA",
+    "city":"Bratislava",
+    "street":"Tren\u010dianska",
+    "longitude":17.1391596,
+    "latitude":48.1525516,
+    "receipt_price":32.0
+  },
+  {
+    "org_name":"Slovensk\u00e9 n\u00e1rodn\u00e9 divadlo",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1235003,
+    "latitude":48.1413643,
+    "receipt_price":31.5
+  },
+  {
+    "org_name":"EDO-KIN GROUP",
+    "city":"Bratislava",
+    "street":"N\u00e1mestie Mateja Korv\u00edna",
+    "longitude":17.119301,
+    "latitude":48.1560734,
+    "receipt_price":31.0
+  },
+  {
+    "org_name":"Dr\u00e1\u010dik DIVI",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":30.48
+  },
+  {
+    "org_name":"TERNO real estate",
+    "city":"Bratislava",
+    "street":"Einsteinova",
+    "longitude":17.1095327,
+    "latitude":48.132256,
+    "receipt_price":30.46
+  },
+  {
+    "org_name":"ZABEZ",
+    "city":"\u0160tefanov",
+    "street":"\u0160tefanov",
+    "longitude":17.2000271,
+    "latitude":48.6773965,
+    "receipt_price":30.06
+  },
+  {
+    "org_name":"SLOVNAFT",
+    "city":"Modra",
+    "street":"\u0160tef\u00e1nikova",
+    "longitude":17.3048629,
+    "latitude":48.3300585,
+    "receipt_price":30.02
+  },
+  {
+    "org_name":"CCC",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1230498,
+    "latitude":48.1402009,
+    "receipt_price":29.99
+  },
+  {
+    "org_name":"Lidl",
+    "city":"Bratislava",
+    "street":"Dunajsk\u00e1",
+    "longitude":17.1140239,
+    "latitude":48.1443505,
+    "receipt_price":29.56
+  },
+  {
+    "org_name":"PivRest",
+    "city":"Bratislava",
+    "street":"Legion\u00e1rska",
+    "longitude":17.1229728,
+    "latitude":48.1561832,
+    "receipt_price":29.07
+  },
+  {
+    "org_name":"ZLAT\u00dd SHANGHAI",
+    "city":"Bratislava",
+    "street":"Ivansk\u00e1 cesta",
+    "longitude":17.1803977,
+    "latitude":48.1653268,
+    "receipt_price":28.26
+  },
+  {
+    "org_name":"O\u013ega B\u00edzkov\u00e1",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"Holl\u00e9ho",
+    "longitude":17.1543517,
+    "latitude":48.6374744,
+    "receipt_price":28.0
+  },
+  {
+    "org_name":"DENBEN",
+    "city":"Bratislava",
+    "street":"Ko\u0161ick\u00e1",
+    "longitude":17.1356337,
+    "latitude":48.1509741,
+    "receipt_price":27.9
+  },
+  {
+    "org_name":"ARW",
+    "city":"Bratislava",
+    "street":"Bazov\u00e1",
+    "longitude":17.1303065,
+    "latitude":48.1524143,
+    "receipt_price":27.9
+  },
+  {
+    "org_name":"PIENSPOL TRAVEL",
+    "city":"\u010cerven\u00fd Kl\u00e1\u0161tor",
+    "street":"\u010cerven\u00fd Kl\u00e1\u0161tor",
+    "longitude":20.4171628,
+    "latitude":49.3989028,
+    "receipt_price":26.7
+  },
+  {
+    "org_name":"C & A Mode",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":25.97
+  },
+  {
+    "org_name":"Loupol",
+    "city":"Bratislava",
+    "street":"Mickiewiczova",
+    "longitude":17.1150468,
+    "latitude":48.1493666,
+    "receipt_price":25.0
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":24.05
+  },
+  {
+    "org_name":"TAURIS",
+    "city":"K\u00faty",
+    "street":"\u0160tef\u00e1nikova",
+    "longitude":17.0226617,
+    "latitude":48.657864,
+    "receipt_price":23.64
+  },
+  {
+    "org_name":"Medusa Restaurants",
+    "city":"Bratislava",
+    "street":"Hviezdoslavovo n\u00e1mestie",
+    "longitude":17.1086181,
+    "latitude":48.142211,
+    "receipt_price":23.4
+  },
+  {
+    "org_name":"TESCO STORES",
+    "city":"Bratislava",
+    "street":"Ko\u0161ick\u00e1",
+    "longitude":17.1354783,
+    "latitude":48.1520638,
+    "receipt_price":23.35
+  },
+  {
+    "org_name":"S7",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":23.1
+  },
+  {
+    "org_name":"AGROJ\u00c1N",
+    "city":"Hronsk\u00fd Be\u0148adik",
+    "street":"Hlavn\u00e1",
+    "longitude":18.5782394,
+    "latitude":48.3636519,
+    "receipt_price":23.0
+  },
+  {
+    "org_name":"COOP Jednota",
+    "city":"O\u0161\u010dadnica",
+    "street":"O\u0161\u010dadnica",
+    "longitude":18.8876253,
+    "latitude":49.4386924,
+    "receipt_price":21.81
+  },
+  {
+    "org_name":"ARNB",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1286972,
+    "latitude":48.1468397,
+    "receipt_price":21.4
+  },
+  {
+    "org_name":"Trnka Gastronomy",
+    "city":"Bratislava",
+    "street":"N\u00e1mestie Mateja Korv\u00edna",
+    "longitude":17.119301,
+    "latitude":48.1560734,
+    "receipt_price":21.2
+  },
+  {
+    "org_name":"Bistro St Germain",
+    "city":"Bratislava",
+    "street":"P\u00e1ri\u010dkov\u00e1",
+    "longitude":17.1322406,
+    "latitude":48.1484595,
+    "receipt_price":20.98
+  },
+  {
+    "org_name":"OMV",
+    "city":"Bratislava",
+    "street":"Einsteinova",
+    "longitude":17.1090504,
+    "latitude":48.1311052,
+    "receipt_price":20.9
+  },
+  {
+    "org_name":"BILLA",
+    "city":"Bratislava",
+    "street":"M\u00fdtna",
+    "longitude":17.1184873,
+    "latitude":48.1562648,
+    "receipt_price":20.64
+  },
+  {
+    "org_name":"BS & AN",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"N\u00e1m.Slobody",
+    "longitude":17.1531111,
+    "latitude":48.636511,
+    "receipt_price":20.6
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1277397,
+    "latitude":48.147324,
+    "receipt_price":20.3
+  },
+  {
+    "org_name":"KOLWEZI",
+    "city":"Bratislava",
+    "street":"FreshMarket   Ro\u017e\u0148avsk\u00e1",
+    "longitude":17.1533438,
+    "latitude":48.1675397,
+    "receipt_price":20.11
+  },
+  {
+    "org_name":"Galaxia VR",
+    "city":"Bratislava",
+    "street":"Studen\u00e1",
+    "longitude":17.17756,
+    "latitude":48.1837211,
+    "receipt_price":20.0
+  },
+  {
+    "org_name":"GAMI - med",
+    "city":"Bratislava",
+    "street":"\u0160ustekova",
+    "longitude":17.1238322,
+    "latitude":48.1284631,
+    "receipt_price":20.0
+  },
+  {
+    "org_name":"BENU P\u00e1ri\u010dkova",
+    "city":"Bratislava",
+    "street":"P\u00e1ri\u010dkova",
+    "longitude":17.1326659,
+    "latitude":48.1489606,
+    "receipt_price":19.06
+  },
+  {
+    "org_name":"Vomur",
+    "city":"Bratislava",
+    "street":"Einsteinova",
+    "longitude":17.1095327,
+    "latitude":48.132256,
+    "receipt_price":19.0
+  },
+  {
+    "org_name":"STH - Stavohotely",
+    "city":"Bratislava",
+    "street":"L\u00ed\u0161\u010die nivy",
+    "longitude":17.140726,
+    "latitude":48.1578887,
+    "receipt_price":19.0
+  },
+  {
+    "org_name":"Spr\u00e1va telov\u00fdchovn\u00fdch a rekrea\u010dn\u00fdch zariaden\u00ed hlavn\u00e9ho mesta Bratislavy",
+    "city":"Bratislava",
+    "street":"Ru\u017eov\u00e1 dolina",
+    "longitude":17.1423516,
+    "latitude":48.1498495,
+    "receipt_price":18.5
+  },
+  {
+    "org_name":"Bombay Express Bratislava",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1277397,
+    "latitude":48.147324,
+    "receipt_price":17.4
+  },
+  {
+    "org_name":"TESCO STORES",
+    "city":"Bratislava",
+    "street":"Mliekarensk\u00e1",
+    "longitude":17.1419614,
+    "latitude":48.1517735,
+    "receipt_price":17.38
+  },
+  {
+    "org_name":"NP PATISSERIE",
+    "city":"Bratislava",
+    "street":"Einsteinova",
+    "longitude":17.1095327,
+    "latitude":48.132256,
+    "receipt_price":17.3
+  },
+  {
+    "org_name":"TESCO STORES",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1265686,
+    "latitude":48.1399733,
+    "receipt_price":16.89
+  },
+  {
+    "org_name":"Euro-\u00c1zijsk\u00e9 Konzulta\u010dn\u00e9 a Vzdel\u00e1vacie Centrum",
+    "city":"Bratislava",
+    "street":"N\u00e1mestie 1 M\u00e1ja",
+    "longitude":17.1109158,
+    "latitude":48.1502791,
+    "receipt_price":16.8
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"Obchodn\u00e1",
+    "longitude":17.112118,
+    "latitude":48.1481406,
+    "receipt_price":16.2
+  },
+  {
+    "org_name":"42",
+    "city":"Bratislava",
+    "street":"Pribinova 8",
+    "longitude":17.1226517,
+    "latitude":48.1407299,
+    "receipt_price":15.99
+  },
+  {
+    "org_name":"SPARKYS",
+    "city":"Bratislava",
+    "street":"Einsteinova",
+    "longitude":17.1095327,
+    "latitude":48.132256,
+    "receipt_price":15.87
+  },
+  {
+    "org_name":"ASIAN VIEW",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1301738,
+    "latitude":48.1467213,
+    "receipt_price":15.59
+  },
+  {
+    "org_name":"Predajne Malina",
+    "city":"Bratislava",
+    "street":"Kva\u010dalov\u00e1",
+    "longitude":17.1306,
+    "latitude":48.1522675,
+    "receipt_price":15.48
+  },
+  {
+    "org_name":"BILLA",
+    "city":"Senica",
+    "street":"\u010ca\u010dovsk\u00e1 cesta",
+    "longitude":17.3507449,
+    "latitude":48.6798294,
+    "receipt_price":15.33
+  },
+  {
+    "org_name":"DEICHMANN-OBUV",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":14.99
+  },
+  {
+    "org_name":"Lidl",
+    "city":"Ko\u0161ice",
+    "street":"Hlavn\u00e1",
+    "longitude":21.2561947,
+    "latitude":48.7254506,
+    "receipt_price":14.96
+  },
+  {
+    "org_name":"Xuan Duc Do - DHY",
+    "city":"\u0160tefanov",
+    "street":"\u0160tefanov",
+    "longitude":17.1999634,
+    "latitude":48.6774796,
+    "receipt_price":14.74
+  },
+  {
+    "org_name":"EAST EUROPE TRADE",
+    "city":"Skalica",
+    "street":"Poto\u010dn\u00e1",
+    "longitude":17.2260303,
+    "latitude":48.8464488,
+    "receipt_price":14.7
+  },
+  {
+    "org_name":"PHARMA CBC II",
+    "city":"Bratislava",
+    "street":"Karad\u017ei\u010dova",
+    "longitude":17.1252067,
+    "latitude":48.1482402,
+    "receipt_price":14.15
+  },
+  {
+    "org_name":"BILLA",
+    "city":"Modra",
+    "street":"\u0160\u00farska",
+    "longitude":17.3098822,
+    "latitude":48.3274601,
+    "receipt_price":14.13
+  },
+  {
+    "org_name":"FAnn-parfum\u00e9rie",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":14.0
+  },
+  {
+    "org_name":"Slovensk\u00fd potravin\u00e1rsky priemysel",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":13.93
+  },
+  {
+    "org_name":"Ksisters",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1301738,
+    "latitude":48.1467213,
+    "receipt_price":13.91
+  },
+  {
+    "org_name":"Taormina",
+    "city":"Ko\u0161ice",
+    "street":"M\u00e4siarska",
+    "longitude":21.2539227,
+    "latitude":48.7214401,
+    "receipt_price":13.9
+  },
+  {
+    "org_name":"be PARTY",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1300312,
+    "latitude":48.1462159,
+    "receipt_price":13.4
+  },
+  {
+    "org_name":"Mila & Co",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1277397,
+    "latitude":48.147324,
+    "receipt_price":13.4
+  },
+  {
+    "org_name":"Pepco",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":13.0
+  },
+  {
+    "org_name":"ORION TRADE",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1412641,
+    "latitude":48.1444923,
+    "receipt_price":12.97
+  },
+  {
+    "org_name":"FAUN",
+    "city":"K\u00faty",
+    "street":"Bratislavsk\u00e1",
+    "longitude":17.0191983,
+    "latitude":48.6573734,
+    "receipt_price":12.65
+  },
+  {
+    "org_name":"Omrvinka",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"J.Holl\u00e9ho",
+    "longitude":17.1532206,
+    "latitude":48.6374271,
+    "receipt_price":12.37
+  },
+  {
+    "org_name":"CUREL",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1272274,
+    "latitude":48.1458877,
+    "receipt_price":12.0
+  },
+  {
+    "org_name":"Potraviny Hejs",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"\u0160t\u00farova",
+    "longitude":17.1440759,
+    "latitude":48.6378503,
+    "receipt_price":11.92
+  },
+  {
+    "org_name":"GHT",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1277397,
+    "latitude":48.147324,
+    "receipt_price":11.8
+  },
+  {
+    "org_name":"BAHNA Trade",
+    "city":"Bansk\u00e1 \u0160tiavnica",
+    "street":"Kammerhofsk\u00e1",
+    "longitude":18.8954898,
+    "latitude":48.4578606,
+    "receipt_price":11.5
+  },
+  {
+    "org_name":"UNITAS Group",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1412641,
+    "latitude":48.1444923,
+    "receipt_price":11.49
+  },
+  {
+    "org_name":"EUROPHARMA",
+    "city":"Bratislava",
+    "street":"Pribinova",
+    "longitude":17.1212575,
+    "latitude":48.1406836,
+    "receipt_price":10.29
+  },
+  {
+    "org_name":"LEON BA",
+    "city":"Bratislava",
+    "street":"Zuzany Chalupovej, Slne\u010dnice Market",
+    "longitude":17.1181909,
+    "latitude":48.092235,
+    "receipt_price":10.0
+  },
+  {
+    "org_name":"BISTRO",
+    "city":"Bratislava",
+    "street":"HORNBACH Bratislava - Dev\u00ednska Nov\u00e1 Ves",
+    "longitude":17.0200933,
+    "latitude":48.2057193,
+    "receipt_price":10.0
+  },
+  {
+    "org_name":"INFINITY team",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1286972,
+    "latitude":48.1468397,
+    "receipt_price":9.99
+  },
+  {
+    "org_name":"H & M Hennes & Mauritz",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":9.99
+  },
+  {
+    "org_name":"Slovensk\u00e1 plavba a pr\u00edstavy - lodn\u00e1 osobn\u00e1 doprava",
+    "city":"Bratislava",
+    "street":"Fajnorovo n\u00e1bre\u017eie",
+    "longitude":17.1127579,
+    "latitude":48.1398819,
+    "receipt_price":9.5
+  },
+  {
+    "org_name":"Predajne Malina",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":9.22
+  },
+  {
+    "org_name":"Mincov\u0148a Kremnica \u0161t\u00e1tny podnik",
+    "city":"Kremnica",
+    "street":"\u0160tef\u00e1nikovo n\u00e1mestie",
+    "longitude":18.9161752,
+    "latitude":48.7055007,
+    "receipt_price":9.0
+  },
+  {
+    "org_name":"YOYOSO",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1277397,
+    "latitude":48.147324,
+    "receipt_price":9.0
+  },
+  {
+    "org_name":"Czech Roll Trade",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":8.76
+  },
+  {
+    "org_name":"GHT",
+    "city":"Bratislava",
+    "street":"Vajnorsk\u00e1",
+    "longitude":17.1396851,
+    "latitude":48.1686279,
+    "receipt_price":8.6
+  },
+  {
+    "org_name":"fiftyfifty",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":8.6
+  },
+  {
+    "org_name":"NA ZDRAVIE",
+    "city":"Bratislava",
+    "street":"Kristy Bendovej",
+    "longitude":17.0304788,
+    "latitude":48.1953709,
+    "receipt_price":8.45
+  },
+  {
+    "org_name":"PSS",
+    "city":"\u0160trba",
+    "street":"\u0160trba",
+    "longitude":20.0650937,
+    "latitude":49.0652079,
+    "receipt_price":8.17
+  },
+  {
+    "org_name":"Bio - Slne\u010dnica",
+    "city":"Bratislava",
+    "street":"Kva\u010dalova",
+    "longitude":17.1333042,
+    "latitude":48.1502507,
+    "receipt_price":8.05
+  },
+  {
+    "org_name":"SPANK",
+    "city":"Bratislava",
+    "street":"Ro\u017e\u0148avsk\u00e1",
+    "longitude":17.1564873,
+    "latitude":48.1695784,
+    "receipt_price":8.0
+  },
+  {
+    "org_name":"KALV\u00c1RSKY FOND",
+    "city":"Bansk\u00e1 \u0160tiavnica",
+    "street":"Pod Kalv\u00e1riou",
+    "longitude":18.9077035,
+    "latitude":48.4619203,
+    "receipt_price":8.0
+  },
+  {
+    "org_name":"J\u00e1n Holick\u00fd",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"Holl\u00e9ho",
+    "longitude":17.1543517,
+    "latitude":48.6374744,
+    "receipt_price":8.0
+  },
+  {
+    "org_name":"MADICOR",
+    "city":"Bratislava",
+    "street":"Metodova",
+    "longitude":17.1295242,
+    "latitude":48.1570204,
+    "receipt_price":7.69
+  },
+  {
+    "org_name":"KVK - Dom\u00e1ce potreby",
+    "city":"Bratislava",
+    "street":"Dulovo n\u00e1mestie",
+    "longitude":17.1349045,
+    "latitude":48.1497231,
+    "receipt_price":7.3
+  },
+  {
+    "org_name":"Min\u00e1rik",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"N\u00e1mestie slobody",
+    "longitude":17.1544052,
+    "latitude":48.6368933,
+    "receipt_price":7.27
+  },
+  {
+    "org_name":"Jozef Bad\u00e1nik - BADAS",
+    "city":"\u010cernov\u00e1",
+    "street":"Sala\u0161 Krajinka",
+    "longitude":19.2311381,
+    "latitude":49.107534,
+    "receipt_price":7.27
+  },
+  {
+    "org_name":"PK Inpex",
+    "city":"Bratislava",
+    "street":"N\u00e1mestie Franza Liszta",
+    "longitude":17.1062651,
+    "latitude":48.1586569,
+    "receipt_price":7.1
+  },
+  {
+    "org_name":"Gamma Root",
+    "city":"K\u00faty",
+    "street":"\u0160tef\u00e1nikova",
+    "longitude":17.0226617,
+    "latitude":48.657864,
+    "receipt_price":6.15
+  },
+  {
+    "org_name":"SLOVNAFT",
+    "city":"Bratislava",
+    "street":"Vajnorsk\u00e1",
+    "longitude":17.1517531,
+    "latitude":48.1786963,
+    "receipt_price":6.12
+  },
+  {
+    "org_name":"dm drogerie markt",
+    "city":"Bratislava",
+    "street":"Einsteinova",
+    "longitude":17.1095327,
+    "latitude":48.132256,
+    "receipt_price":5.75
+  },
+  {
+    "org_name":"N\u00e1rodn\u00fd \u00fastav detsk\u00fdch chor\u00f4b skr\u00e1tene N\u00daDCH",
+    "city":"Bratislava",
+    "street":"Limbov\u00e1",
+    "longitude":17.0812876,
+    "latitude":48.1674589,
+    "receipt_price":5.7
+  },
+  {
+    "org_name":"Ko Ma Co",
+    "city":"Modra",
+    "street":"\u0160t\u00farova",
+    "longitude":17.3103079,
+    "latitude":48.336646,
+    "receipt_price":5.7
+  },
+  {
+    "org_name":"V\u010delco",
+    "city":"Smolenice",
+    "street":"Tov\u00e1rensk\u00e1",
+    "longitude":17.4437965,
+    "latitude":48.5150962,
+    "receipt_price":5.3
+  },
+  {
+    "org_name":"Uouorose",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1277397,
+    "latitude":48.147324,
+    "receipt_price":4.99
+  },
+  {
+    "org_name":"FAUN",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"J.Holl\u00e9ho",
+    "longitude":17.1527423,
+    "latitude":48.6375172,
+    "receipt_price":4.76
+  },
+  {
+    "org_name":"Spusta Group",
+    "city":"Bratislava",
+    "street":"Ro\u017e\u0148avsk\u00e1",
+    "longitude":17.1531824,
+    "latitude":48.1676879,
+    "receipt_price":4.4
+  },
+  {
+    "org_name":"H U Dioxidos",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":4.04
+  },
+  {
+    "org_name":"Jan Holick\u00fd",
+    "city":"\u0160a\u0161t\u00edn",
+    "street":"Holl\u00e9ho",
+    "longitude":17.1543517,
+    "latitude":48.6374744,
+    "receipt_price":4.0
+  },
+  {
+    "org_name":"MALINA potraviny",
+    "city":"Bratislava",
+    "street":"Mlynsk\u00e9 Nivy",
+    "longitude":17.1236678,
+    "latitude":48.1466793,
+    "receipt_price":3.39
+  },
+  {
+    "org_name":"Dr MAGNET",
+    "city":"Bratislava",
+    "street":"Ru\u017einovsk\u00e1",
+    "longitude":17.1519477,
+    "latitude":48.1552301,
+    "receipt_price":3.0
+  },
+  {
+    "org_name":"Dr\u00e1\u010dik DIVI",
+    "city":"Bratislava",
+    "street":"Pan\u00f3nska cesta",
+    "longitude":17.0967045,
+    "latitude":48.1040351,
+    "receipt_price":2.78
+  },
+  {
+    "org_name":"JVS GROUP",
+    "city":"Bratislava",
+    "street":"Hodon\u00ednska",
+    "longitude":17.0397145,
+    "latitude":48.2080743,
+    "receipt_price":2.5
+  },
+  {
+    "org_name":"TERNO real estate",
+    "city":"Bratislava",
+    "street":"Bajkalsk\u00e1",
+    "longitude":17.1391499,
+    "latitude":48.1639605,
+    "receipt_price":2.27
+  },
+  {
+    "org_name":"Bohdal RAJ",
+    "city":"Bratislava",
+    "street":"Limbov\u00e1",
+    "longitude":17.0812876,
+    "latitude":48.1674589,
+    "receipt_price":2.0
+  }
+]

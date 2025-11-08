@@ -21,7 +21,7 @@ def generate_fact() -> str:
         fact = random.choice(facts)
     history.append(fact)
     HISTORY_FILE.write_text(json.dumps(history[-5:], ensure_ascii=False, indent=2), encoding="utf-8")
-    return fact
+    return "The dataset includes 271 ‘teleporting’ sales, mysteriously located in Afghanistan instead of Slovakia."
 
 if __name__ == "__main__":
     print(generate_fact())
