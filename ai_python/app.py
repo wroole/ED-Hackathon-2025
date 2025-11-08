@@ -39,6 +39,6 @@ def ask(q: Question):
         answer.image = out['image']
     return answer
 
-@app.post("/fact", response_model=FactResponse)
+@app.get("/fact", response_model=FactResponse)
 def fact():
     return FactResponse(fact=generate_fact())

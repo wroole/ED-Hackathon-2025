@@ -43,3 +43,8 @@ Biely jogurt and mlieko are the most frequently bought together items, appearing
 The highest average receipt value is recorded in Prešov, showing that shoppers there tend to spend more per visit.
 The Pastry category leads overall sales, confirming its popularity among customers.
 The summer season records the highest number of purchases, as shopping activity peaks in warm months.
+The dataset includes 271 ‘teleporting’ sales, mysteriously located in Afghanistan instead of Slovakia.
+Apparently, Šaštín-Stráže has an identity crisis — it shows up under four different names in the dataset.
+About 12.5% of all receipts contain only one item, showing that many shoppers make quick, single-product purchases.
+Only around 0.1% of all receipts include bananas, proving that banana lovers are a rare breed in this dataset.
+Interestingly, Sunday has the highest average receipt value — €49.20, suggesting that weekend shoppers tend to spend more per visit.

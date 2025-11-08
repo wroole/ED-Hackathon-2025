@@ -117,14 +117,12 @@ def generate_chart_image(df: pd.DataFrame, spec: dict) -> str | None:
             if df[x].dtype == "object":
                 df[x] = pd.to_datetime(df[x], errors="coerce")
             df = df.dropna(subset=[x]).sort_values(x)
-
     y = spec.get("y")
     hue = spec.get("groupBy")
     if not x or x not in df.columns:
         return None
     if chart_type in ("bar", "column") and (not y or y not in df.columns):
         return None
-    
     df = df.dropna(subset=[x] + ([y] if y else []))
     if df.empty:
         return None
@@ -192,7 +190,6 @@ def find_answer(question: str):
     else:
         return None
 
-
 def question_sql_answer(question: str, need_chart: bool) -> dict:
     sql = generate_sql(question)
     if not validate_sql(sql):
@@ -251,7 +248,6 @@ def question_sql_answer(question: str, need_chart: bool) -> dict:
         })
         return answer
         
-
 def generate_answer(answer_input: dict) -> dict:
     result = json.dumps(answer_input['result'], ensure_ascii=False)
     FILLED_ANSWER_PROMPT = ANSWER_PROMPT + '\n\n' + (
