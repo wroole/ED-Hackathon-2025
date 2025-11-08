@@ -1,0 +1,45 @@
+The dataset contains 8,434 sales rows across 1,117 receipts.
+Shoppers bought an estimated 14,148 items in total.
+Total recorded revenue (by receipts or line sums) is approximately €32,296.44.
+There are 506 product categories, 802 brands, and sales across 39 cities.
+Purchases were made at 253 distinct organizations (stores).
+Category #1 by revenue is Pastry with €1,955.59.
+Category #1 by number of sales rows is Pastry with 883 entries.
+The highest average item price by category is in Dental Service at €29.98.
+City #1 by total spending is Bratislava with €25,860.25.
+City #1 by number of sales rows is Bratislava with 6,793 entries.
+Store #1 by revenue is Lidl with €7,843.44.
+Store #1 by number of sales rows is Lidl with 3,656 entries.
+Weekday #1 by total spending is Friday with €6,609.09.
+Weekday #1 by number of sales rows is Friday with 1,830 entries.
+Month #1 by total spending is September with €2,120.26.
+Month #1 by number of sales rows is September with 523 entries.
+About 0.4% of sales rows are marked as luxury products.
+Approximately 3.8% of sales rows are labeled as bio products.
+Roughly 0.2% of sales rows are labeled as eco products.
+The average receipt total is around €28.91; the median receipt is €18.95.
+One of the biggest receipts totals €432.96.
+On Fridays, Meat sees strong spending totaling €424.04 among top weekday-category pairs.
+Bratislava records high spending on Wednesdays at €5,309.67 among leading weekday-city pairs.
+Total spending on Wednesdays amounts to €5,848.26.
+Total spending on Tuesdays amounts to €5,042.14.
+Total spending on Mondays amounts to €4,699.50.
+Total spending on Saturdays amounts to €4,695.35.
+Total spending on Thursdays amounts to €3,952.57.
+Total spending on Sundays amounts to €3,034.81.
+In 2025-09, shoppers spent €2,120.26 in total.
+In 2023-03, shoppers spent only €7.50 in total.
+Food products make up 66.2% of all sales, showing it is by far the dominant category.
+Beverages account for about 9.2% of total sales, making them the second most common category.
+Non-Food & Services represent around 8.9% of all purchases.
+Home & Household items contribute 7.6% of the total, reflecting steady but smaller demand.
+Health & Personal Care products cover 4.5%, while Services & Other make up the remaining 3.7% of sales.
+The most expensive single product purchased in Košice was the Bluecheese Beef Burger MENU.
+The highest receipt in Košice came from Koshi Sushi, totaling €27.60.
+On average, each receipt contains about 13.84 items, showing that most purchases are small and quick.
+The most frequently purchased item is bananas, appearing in 103 sales records.
+The most popular brand overall is COOP, reflecting its wide presence across categories.
+Biely jogurt and mlieko are the most frequently bought together items, appearing on 32 receipts.
+The highest average receipt value is recorded in Prešov, showing that shoppers there tend to spend more per visit.
+The Pastry category leads overall sales, confirming its popularity among customers.
+The summer season records the highest number of purchases, as shopping activity peaks in warm months.
